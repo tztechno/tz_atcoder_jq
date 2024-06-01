@@ -28,7 +28,8 @@ https://www.tohoho-web.com/ex/jq.html
 ```
 ---
 ```
-
+縦入力をまとめて処理
+split("\n") as $lines | $lines | map(split(" ")) | flatten | map(tonumber) as $A |
 ```
 ---
 
