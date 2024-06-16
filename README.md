@@ -24,7 +24,8 @@ https://www.tohoho-web.com/ex/jq.html
 ```
 ---
 ```
-
+if文
+if $s == $t[0:-1] then "Yes" else "No" end
 ```
 ---
 ```
