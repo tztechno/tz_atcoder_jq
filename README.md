@@ -20,7 +20,9 @@ https://www.tohoho-web.com/ex/jq.html
 ```
 ---
 ```
-
+split("\n") as $input | tonumber as $N |
+split("\n") as $input | split(" ") | map(tonumber) as $A |
+$A[0] as $N |
 ```
 ---
 ```
